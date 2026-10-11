@@ -45,7 +45,7 @@ None of our datasets come from Kaggle.
 
 ## Timeline
 | Dates | Task | Description | 
-|---|---|---|---|
+|---|---|---|
 | Oct 12 | Project plan release | Commit `ProjectPlan.md`, tag and release `project-plan` | 
 | Oct 13 to 19 | Acquisition and organization | Repository structure; one download script per source; checksums; record access dates and licenses |
 | Oct 20 to 26 | Pre-integration quality assessment | Profile each dataset for accuracy, completeness, timeliness, and consistency; document results | 
