@@ -44,6 +44,18 @@ None of our datasets come from Kaggle.
 **Storage and organization:**
 
 ## Timeline
+| Dates | Task | Description | 
+|---|---|---|---|
+| Oct 12 | Project plan release | Commit `ProjectPlan.md`, tag and release `project-plan` | 
+| Oct 13 to 19 | Acquisition and organization | Repository structure; one download script per source; checksums; record access dates and licenses |
+| Oct 20 to 26 | Pre-integration quality assessment | Profile each dataset for accuracy, completeness, timeliness, and consistency; document results | 
+| Oct 27 to Nov 2 | Data cleaning | Reshape the UN file to long format; remove regional aggregates; standardize country codes; handle missing values and outliers |
+| Nov 3 to 9 | Integration | Join the three cleaned tables on country code and year; log unmatched keys | 
+| Nov 10 to 15 | Post-integration quality assessment | Re-assess the four dimensions on the integrated table; compare GDP and population across sources as an accuracy check |
+| Nov 16 to 19 | Status report | Write and release the interim status report; update this plan from feedback | 
+| Nov 20 to 29 | Analysis and automation | Descriptive statistics and plots for the three questions |
+| Nov 30 to Dec 4 | Reproducibility and metadata | Run the workflow from a fresh clone; pin package versions; write the data dictionary and metadata | 
+| Dec 5 to 7 | Final submission | Final report and `final-project` GitHub release |
 
 ## Constraints
 - **Uneven coverage:** the UN data begins in 1990 and some indicators, such as renewable energy share, have gaps for smaller countries and recent years, which limits the complete-case sample.
