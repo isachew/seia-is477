@@ -1,2 +1,1 @@
-# seia-is477 hello
-# hi
+# seia-is477
