@@ -40,6 +40,7 @@ None of our datasets come from Kaggle.
 - Role: income and the explanatory factors for question 3
 
 **Why integration is feasible:**
+Integration is structurally straightforward because all three datasets share two universal identifiers: **standardized country identifiers** (such as ISO Alpha-3 country codes or matching country names) and **calendar years** (annual frequency). Because all three sources operate at the exact same observational unit—the **country-year** level—we can perform reliable relational merges (using Python/pandas or SQL) on the composite key. Additionally, their temporal coverages heavily overlap (particularly from 1990 onward), ensuring we have a robust multi-decade window for panel data analysis without structural mismatches in time frames.
 
 **Storage and organization:**
 
