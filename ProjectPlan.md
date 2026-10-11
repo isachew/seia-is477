@@ -16,11 +16,16 @@ All four members will contribute to the analysis, review each other's pull reque
 3. Do urbanization, industry share of GDP, and renewable energy share help explain why countries at similar income levels have different per-capita emissions?
 ## Datasets
 None of our datasets come from Kaggle.
-**1. 
-**2.
-**3. 
+**1: ** 
+**2: **
+**3: ** 
 **Why integration is feasible:**
 **Storage and organization:**
 ## Timeline
 ## Constraints
+- **Uneven coverage:** the UN data begins in 1990 and some indicators, such as renewable energy share, have gaps for smaller countries and recent years, which limits the complete-case sample.
+- **Changing sources:** all three are updated in place, so results can shift between runs. We will record download dates and checksums, and keep copies of raw files where the license allows.
 ## Gaps
+- We still need to read and document the exact terms of use for the UN Human Development Reports and World Bank data, and confirm whether raw copies may be redistributed in our repository.
+- We need guidance on the expected depth of the metadata and on which metadata standard to follow.
+- We have not yet decided how to treat missing values (drop, interpolate, or flag), which depends on what the quality assessment shows.
