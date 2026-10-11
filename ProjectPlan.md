@@ -23,18 +23,22 @@ All four members will contribute to the analysis, review each other's pull reque
 3. Do urbanization, industry share of GDP, and renewable energy share help explain why countries at similar income levels have different per-capita emissions?
 ## Datasets
 None of our datasets come from Kaggle.
+
 **1. Our World in Data: CO2 and Greenhouse Gas Emissions**
 - Source: https://ourworldindata.org/grapher/co-emissions-per-capita?tab=chart&country=USA~GBR~CHN~ZAF~PAN
 - Content: annual CO2 and greenhouse gas emissions (total, per capita, by fuel), energy use, plus population and GDP columns
 - Role: the outcome we are studying (emissions)
+
 **2. UN Human Development Reports: composite indices time series**
 - Source: https://hdr.undp.org/data-center/human-development-index#/indicies/HDI
 - Content: Human Development Index and components (life expectancy, schooling, income per person), 1990 to 2023
 - Role: the human development measure
-**3. UN Human Development Reports: composite indices time series **
+
+**3. UN Human Development Reports: composite indices time series**
 - Source: https://data.worldbank.org
 - Content: GDP per capita, urban population share, industry value added, renewable energy share, and population
 - Role: income and the explanatory factors for question 3
+
 **Why integration is feasible:**
 **Storage and organization:**
 ## Timeline
