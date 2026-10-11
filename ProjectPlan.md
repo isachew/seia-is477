@@ -40,8 +40,11 @@ None of our datasets come from Kaggle.
 - Role: income and the explanatory factors for question 3
 
 **Why integration is feasible:**
+
 **Storage and organization:**
+
 ## Timeline
+
 ## Constraints
 - **Uneven coverage:** the UN data begins in 1990 and some indicators, such as renewable energy share, have gaps for smaller countries and recent years, which limits the complete-case sample.
 - **Changing sources:** all three are updated in place, so results can shift between runs. We will record download dates and checksums, and keep copies of raw files where the license allows.
