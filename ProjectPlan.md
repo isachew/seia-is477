@@ -8,6 +8,7 @@ The goal of this project is to build a clean, documented, and reproducible count
 | Sarah | Data quality and cleaning lead | Pre- and post-integration quality assessments, cleaning scripts |
 | Ean | Integration and workflow lead | Integration script, workflow orchestration, reproducibility testing |
 | Abigail | Documentation and ethics lead | License and terms-of-use review, metadata and data dictionary, report coordination |
+
 All four members will contribute to the analysis, review each other's pull requests, and co-write the status report.
 ## Research Questions
 1. How are per-capita CO2 emissions related to GDP per capita and the Human Development Index across countries from 1990 to 2023?
