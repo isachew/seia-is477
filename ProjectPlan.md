@@ -1,6 +1,13 @@
 # Project Plan: Income, Human Development and Carbon Emissions
 ## Overview
-The goal of this project is to build a clean, documented, and reproducible country-by-year dataset that links carbon emissions to income and Hyman development, and use it to research how emissions can change as countries develop. We will integrate three sources: the Our World in Data C02 Emissions dataset, the UN Human Development Reports composite indices, and World Bank Open Data indicators. Our approach follows...
+The goal of this project is to build a clean, documented, and reproducible country-by-year dataset that links carbon emissions to income and Hyman development, and use it to research how emissions can change as countries develop. We will integrate three sources: the Our World in Data C02 Emissions dataset, the UN Human Development Reports composite indices, and World Bank Open Data indicators. 
+
+Our planned approach to achieve this involves four main phases:
+1. **Data Acquisition & Ingestion:** Pulling raw data from three authoritative global sources (World Bank, UNDP, and Our World in Data) while enforcing strict provenance tracking using checksums and download logs.
+2. **Data Wrangling & Integration:** Merging the datasets using standardized ISO country codes and calendar years as composite keys.
+3. **Exploratory Data Analysis (EDA):** Investigating statistical relationships, tracking trajectories of high-development nations, and identifying environmental Kuznets curve patterns.
+4. **Reproducible Reporting:** Compiling our code, cleaning scripts, and final insights into a fully reproducible GitHub repository and final report.
+
 ## Team
 | Member | Role | Planned responsibilities |
 |---|---|---|
