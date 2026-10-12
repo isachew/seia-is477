@@ -1,6 +1,6 @@
 # Project Plan: Income, Human Development and Carbon Emissions
 ## Overview
-The goal of this project is to build a clean, documented, and reproducible country-by-year dataset that links carbon emissions to income and Hyman development, and use it to research how emissions can change as countries develop. We will integrate three sources: the Our World in Data C02 Emissions dataset, the UN Human Development Reports composite indices, and World Bank Open Data indicators. 
+The goal of this project is to build a clean, documented, and reproducible country-by-year dataset that links carbon emissions to income and Human development, and use it to research how emissions can change as countries develop. We will integrate three sources: the Our World in Data C02 Emissions dataset, the UN Human Development Reports composite indices, and World Bank Open Data indicators.
 
 Our planned approach to achieve this involves four main phases:
 1. **Data Acquisition & Ingestion:** Pulling raw data from three authoritative global sources (World Bank, UNDP, and Our World in Data) while enforcing strict provenance tracking using checksums and download logs.
@@ -29,12 +29,12 @@ None of our datasets come from Kaggle.
 - Content: Annual CO2 and greenhouse gas emissions (total, per capita, by fuel), energy use, plus population and GDP columns
 - Role: The outcome we are studying (emissions)
 
-**2. UN Human Development Reports: composite indices time series**
+**2. UN Human Development Reports: Composite Indices Time Series**
 - Source: https://hdr.undp.org/data-center/human-development-index#/indicies/HDI
 - Content: Human Development Index and components (life expectancy, schooling, income per person), 1990 to 2023
 - Role: The human development measure
 
-**3. UN Human Development Reports: composite indices time series**
+**3. World Bank Data: World Development Indicators**
 - Source: https://data.worldbank.org
 - Content: GDP per capita, urban population share, industry value added, renewable energy share, and population
 - Role: Income and the explanatory factors for question 3
@@ -68,3 +68,4 @@ We will organize our project files in a structured GitHub repository to support 
 - We still need to read and document the exact terms of use for the UN Human Development Reports and World Bank data, and confirm whether raw copies may be redistributed in our repository.
 - We need guidance on the expected depth of the metadata and on which metadata standard to follow.
 - We have not yet decided how to treat missing values (drop, interpolate, or flag), which depends on what the quality assessment shows.
+- We would need to decide how to assess and determine accuracy when GDP and population values that may appear in the OWID and World Bank slightly differ.
