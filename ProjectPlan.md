@@ -34,9 +34,9 @@ None of our datasets come from Kaggle.
 - Content: Human Development Index and components (life expectancy, schooling, income per person), 1990 to 2023
 - Role: The human development measure
 
-**3. World Bank Data: World Development Indicators**
-- Source: https://data.worldbank.org
-- Content: GDP per capita, urban population share, industry value added, renewable energy share, and population
+**3. World Bank Open Data: World Development Indicators**
+- Source: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?end=2025&start=1960&view=chart)
+- Content: Annual GDP per capital (USD $)from 1960-2025, as reported by country and geographic region.
 - Role: Income and the explanatory factors for question 3
 
 **Why integration is feasible:**
