@@ -18,7 +18,7 @@ WB = {
     'gdp_per_capita': ('gdp_per_capita.csv', 'NY.GDP.PCAP.CD'),
     'urban_population_pct': ('urban_population.csv', 'SP.URB.TOTL.IN.ZS'),
     'industry_share_pct': ('industry_including_construction.csv', 'NV.IND.TOTL.ZS'),
-    'renewable_energy_pct': ('renewable_energy_consumptino.csv', 'EG.FEC.RNEW.ZS'),
+    'renewable_energy_pct': ('renewable_energy_consumption.csv', 'EG.FEC.RNEW.ZS'),
 }
 report = []
 
