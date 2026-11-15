@@ -40,6 +40,15 @@ Our data processing workflow currently includes separate Python scripts for pre-
 - Explain any changes we've made to our timeline or responsibilities.
 - If the overall plan hasn't changed, just explain that we're keeping the same approach and adjusting our timeline as needed.
 
+- Draft, please revise:
+Our group has maintained the original project objectives and research questions, but we have made several adjustments based on instructor feedback and challenges encountered during data acquisition and processing.
+
+One change involved our UNDP dataset. We initially downloaded the 2025 Human Development Report statistical annex, but discovered that it did not provide the complete annual HDI observations needed for our 1990–2023 analysis. To address this issue, we obtained the UNDP composite indices time-series dataset, which provides the historical HDI values required for our research. This adjustment allows us to examine changes in human development over time rather than relying on a limited number of years.
+
+We also clarified our approach to Research Question 3 based on instructor feedback. Rather than broadly examining factors that might explain differences in emissions, we will specifically focus on urban population percentage, industry share of GDP and renewable energy consumption percentage. Our analysis will remain primarily descriptive, using comparisons and visualizations to explore how these indicators relate to emissions among countries with similar income levels. We do not plan to make causal claims based on these relationships.
+
+Finally, our initial data quality assessment revealed differences in data availability across sources. In particular, renewable energy consumption observations were available only through 2022, despite our overall study period extending through 2023. We will preserve missing observations and clearly document these limitations rather than substitute values from other years. These adjustments do not change our overall research goals but help ensure that our analysis remains accurate, transparent and consistent with the available data.
+
 ## 5. Challenges & Proposed Solutions (~200 words)
 - What problems have we run into so far?
 - Potential issues to discuss if we've encountered them:
