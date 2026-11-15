@@ -8,12 +8,14 @@
 - **Purpose:** Provides country-level carbon emissions data, including CO2 emissions per capita.
 
 ## 2. United Nations Development Programme (UNDP)
-- **Dataset:** Human Development Reports 2025 Statistical Annex, HDI Table
+- **Dataset:** Human Development Reports 2025, Composite Indices Complete Time Series
 - **Source:** https://hdr.undp.org/data-center/documentation-and-downloads
-- **File:** `data/raw/HDR25_Statistical_Annex_HDI_Table.xlsx`
-- **Format:** Excel
-- **Purpose:** Provides Human Development Index (HDI) data for comparing human development across countries.
-- **Verification needed:** Confirm that the file contains annual HDI observations for 1990–2023.
+- **File:** `data/raw/HDR25_Composite_indices_complete_time_series.csv`
+- **Format:** CSV
+- **Purpose:** Provides annual Human Development Index (HDI) values for countries from 1990 through 2023, allowing comparisons of human development across countries and over time.
+- **Acquisition method:** Download the Composite Indices Complete Time Series CSV from the official UNDP Human Development Reports Data Center. Save the file in `data/raw/` using the filename above.
+- **Processing:** The cleaning script extracts HDI values for 1990–2023 and standardizes the country identifiers for integration with the other datasets.
+- **Integrity verification:** The downloaded file can be checked against its recorded SHA-256 checksum using `scripts/verify_raw_data.py`.
 
 ## 3. World Bank
 - **Dataset:** World Development Indicators
