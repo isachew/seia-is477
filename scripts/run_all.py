@@ -8,6 +8,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 
 SCRIPTS = [
+    "verify_raw_data.py",
     "assess_data_quality.py",
     "clean_data.py",
     "integrate_data.py",
