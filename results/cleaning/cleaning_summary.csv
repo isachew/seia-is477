@@ -1,0 +1,7 @@
+dataset,input_rows_after_reshaping,excluded_non_country_or_unmatched_rows,invalid_values_set_missing,output_rows,missing_indicator_values,unique_countries,first_year,last_year
+hdi,6630,0,0,6630,690,195,1990,2023
+co2_per_capita,8799,2169,0,6630,81,195,1990,2023
+gdp_per_capita,9044,2414,0,6630,130,195,1990,2023
+urban_population_pct,9044,2414,0,6630,0,195,1990,2023
+industry_share_pct,9044,2414,0,6630,717,195,1990,2023
+renewable_energy_pct,9044,2414,0,6630,473,195,1990,2023
