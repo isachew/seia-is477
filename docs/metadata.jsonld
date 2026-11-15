@@ -1,0 +1,44 @@
+
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Income, Human Development, and Carbon Emissions",
+  "description": "An integrated country-year dataset examining relationships among GDP per capita, human development, CO2 emissions, urbanization, industry share of GDP, and renewable energy consumption across 195 countries from 1990 to 2023.",
+  "url": "https://github.com/isachew/seia-is477",
+  "identifier": "https://github.com/isachew/seia-is477/blob/main/data/integrated/country_year_integrated.csv",
+  "temporalCoverage": "1990/2023",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "195 countries represented by ISO-3 country codes"
+  },
+  "variableMeasured": [
+    {"@type": "PropertyValue", "name": "iso3", "description": "Three-letter country identifier"},
+    {"@type": "PropertyValue", "name": "year", "description": "Calendar year"},
+    {"@type": "PropertyValue", "name": "hdi", "description": "Human Development Index"},
+    {"@type": "PropertyValue", "name": "co2_per_capita", "description": "Annual territorial CO2 emissions per capita"},
+    {"@type": "PropertyValue", "name": "gdp_per_capita", "description": "GDP per capita in current US dollars"},
+    {"@type": "PropertyValue", "name": "urban_population_pct", "description": "Urban population as a percentage of total population"},
+    {"@type": "PropertyValue", "name": "industry_share_pct", "description": "Industry including construction value added as a percentage of GDP"},
+    {"@type": "PropertyValue", "name": "renewable_energy_pct", "description": "Renewable energy consumption as a percentage of total final energy consumption"}
+  ],
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://raw.githubusercontent.com/isachew/seia-is477/main/data/integrated/country_year_integrated.csv"
+  },
+  "isBasedOn": [
+    "https://github.com/owid/co2-data",
+    "https://hdr.undp.org/data-center/documentation-and-downloads",
+    "https://data.worldbank.org/"
+  ],
+  "measurementTechnique": "Country-year integration using ISO-3 country codes and calendar years, with missing observations preserved.",
+  "keywords": [
+    "CO2 emissions",
+    "human development",
+    "GDP per capita",
+    "urbanization",
+    "renewable energy",
+    "industry",
+    "data integration"
+  ]
+}
