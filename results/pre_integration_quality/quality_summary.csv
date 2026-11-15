@@ -1,0 +1,7 @@
+source,rows_1990_2023,unique_country_identifiers,duplicate_country_year_rows,missing_country_codes,missing_indicator_values,missing_indicator_pct,nonmissing_indicator_values,earliest_available_year,latest_available_year,years_with_values,negative_values,values_above_expected_bound
+owid,8799,223,0,1217,792,9.0,8007,1990,2023,34,0,0
+undp,7004,206,0,0,690,9.85,6314,1990,2023,34,0,0
+gdp_per_capita,9044,266,0,0,397,4.39,8647,1990,2023,34,0,0
+urban_population,9044,266,0,0,34,0.38,9010,1990,2023,34,0,0
+industry,9044,266,0,0,1225,13.54,7819,1990,2023,34,0,0
+renewable_energy,9044,266,0,0,810,8.96,8234,1990,2022,33,0,0

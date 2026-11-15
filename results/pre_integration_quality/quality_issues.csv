@@ -1,0 +1,34 @@
+source,check,count,explanation
+owid,non-ISO3 or missing ISO codes in raw file,7963,Some OWID rows represent world/regions or lack standard country codes
+owid,duplicate country-year keys,0,Review keys before joining
+owid,missing indicator values,792,Check coverage before deciding how to handle missingness
+owid,missing country codes,1217,Check whether these are aggregates or unmapped entities
+owid,negative values,0,Review negative values against source definitions
+undp,duplicate country-year keys,0,Review keys before joining
+undp,missing indicator values,690,Check coverage before deciding how to handle missingness
+undp,missing country codes,0,Check whether these are aggregates or unmapped entities
+undp,negative values,0,Review negative values against source definitions
+undp,above expected upper bound,0,Expected upper bound is 1; inspect source definitions
+gdp_per_capita,duplicate country-year keys,0,Review keys before joining
+gdp_per_capita,missing indicator values,397,Check coverage before deciding how to handle missingness
+gdp_per_capita,missing country codes,0,Check whether these are aggregates or unmapped entities
+gdp_per_capita,negative values,0,Review negative values against source definitions
+gdp_per_capita,country/region aggregate filtering needed,0,World Bank files include regional/income aggregates; identify using World Bank metadata before joining
+urban_population,duplicate country-year keys,0,Review keys before joining
+urban_population,missing indicator values,34,Check coverage before deciding how to handle missingness
+urban_population,missing country codes,0,Check whether these are aggregates or unmapped entities
+urban_population,negative values,0,Review negative values against source definitions
+urban_population,above expected upper bound,0,Expected upper bound is 100; inspect source definitions
+urban_population,country/region aggregate filtering needed,0,World Bank files include regional/income aggregates; identify using World Bank metadata before joining
+industry,duplicate country-year keys,0,Review keys before joining
+industry,missing indicator values,1225,Check coverage before deciding how to handle missingness
+industry,missing country codes,0,Check whether these are aggregates or unmapped entities
+industry,negative values,0,Review negative values against source definitions
+industry,above expected upper bound,0,Expected upper bound is 100; inspect source definitions
+industry,country/region aggregate filtering needed,0,World Bank files include regional/income aggregates; identify using World Bank metadata before joining
+renewable_energy,duplicate country-year keys,0,Review keys before joining
+renewable_energy,missing indicator values,810,Check coverage before deciding how to handle missingness
+renewable_energy,missing country codes,0,Check whether these are aggregates or unmapped entities
+renewable_energy,negative values,0,Review negative values against source definitions
+renewable_energy,above expected upper bound,0,Expected upper bound is 100; inspect source definitions
+renewable_energy,country/region aggregate filtering needed,0,World Bank files include regional/income aggregates; identify using World Bank metadata before joining
