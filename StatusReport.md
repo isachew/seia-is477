@@ -40,7 +40,8 @@ To support reproducibility, we developed an automated workflow using scripts/run
 - Explain any changes we've made to our timeline or responsibilities.
 - If the overall plan hasn't changed, just explain that we're keeping the same approach and adjusting our timeline as needed.
 
-- Draft, please revise:
+Draft, please revise:
+
 Our group has maintained the original project objectives and research questions, but we have made several adjustments based on instructor feedback and challenges encountered during data acquisition and processing.
 
 One change involved our UNDP dataset. We initially downloaded the 2025 Human Development Report statistical annex, but discovered that it did not provide the complete annual HDI observations needed for our 1990–2023 analysis. To address this issue, we obtained the UNDP composite indices time-series dataset, which provides the historical HDI values required for our research. This adjustment allows us to examine changes in human development over time rather than relying on a limited number of years.
