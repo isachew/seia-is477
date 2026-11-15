@@ -17,7 +17,7 @@ FILES = {
     'gdp_per_capita': 'gdp_per_capita.csv',
     'urban_population': 'urban_population.csv',
     'industry': 'industry_including_construction.csv',
-    'renewable_energy': 'renewable_energy_consumptino.csv',
+    'renewable_energy': 'renewable_energy_consumption.csv',
 }
 INDICATORS = {
     'gdp_per_capita': 'NY.GDP.PCAP.CD',
