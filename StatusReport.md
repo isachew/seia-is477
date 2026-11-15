@@ -1,10 +1,8 @@
 # Status Report 
 **Income, Human Development, and Carbon Emissions**
 
-**Target: 1,000–1,500 words total**
-
 ## 1. Project Overview & Current Status 
-Our project builds a clean, documented, and reproducible country-by-year dataset linking carbon emissions to income and human development. We use it to study how emissions change as countries develop. We are integrating three sources: the **Our World in Data (OWID) CO2 and Greenhouse Gas Emissions** dataset, the **UN Human Development Reports (HDR) Composite Indices Time Series**, and the **World Bank World Development Indicators (WDI)**. Our research questions are:
+Our project builds a clean, documented, and reproducible country-by-year dataset that examines the relationship between carbon emissions, income, and human development from 1990 to 2023. We use it to study how emissions change as countries develop. We are integrating three sources: the **Our World in Data (OWID) CO2 and Greenhouse Gas Emissions** dataset, the **UN Human Development Reports (HDR) Composite Indices Time Series**, and the **World Bank World Development Indicators (WDI)**. Our research questions are:
 1. How are per-capita CO2 emissions related to GDP per capita and the Human Development Index (HDI) across countries from 1990 to 2023?
 2. Among countries with very high human development, have per-capita emissions fallen while development continued to rise?
 3. Do urbanization, industry share of GDP, and renewable energy share help explain why countries at similar income levels have different per-capita emissions?
