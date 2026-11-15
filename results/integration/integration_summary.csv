@@ -1,0 +1,7 @@
+indicator,input_rows,input_countries,missing_values_before_join,integrated_rows,missing_values_after_join,join_introduced_missing_values
+hdi,6630,195,690,6630,690,0
+co2_per_capita,6630,195,81,6630,81,0
+gdp_per_capita,6630,195,130,6630,130,0
+urban_population_pct,6630,195,0,6630,0,0
+industry_share_pct,6630,195,717,6630,717,0
+renewable_energy_pct,6630,195,473,6630,473,0
