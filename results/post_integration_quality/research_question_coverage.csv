@@ -1,0 +1,5 @@
+analysis,required_indicators,complete_rows,complete_pct,countries_with_complete_rows
+RQ1_CO2_GDP_HDI,"co2_per_capita, gdp_per_capita, hdi",5862,88.42,192
+RQ2_CO2_HDI,"co2_per_capita, hdi",5915,89.22,192
+RQ3_CO2_GDP_urban_industry_renewable,"co2_per_capita, gdp_per_capita, urban_population_pct, industry_share_pct, renewable_energy_pct",5548,83.68,190
+All_six_indicators,"hdi, co2_per_capita, gdp_per_capita, urban_population_pct, industry_share_pct, renewable_energy_pct",5189,78.27,190

@@ -1,0 +1,7 @@
+indicator,total_rows,non_missing,missing,missing_pct,min_observed,max_observed
+hdi,6630,5940,690,10.41,0.215,0.972
+co2_per_capita,6630,6549,81,1.22,0.0,364.853
+gdp_per_capita,6630,6500,130,1.96,22.9521327615352,256799.911212051
+urban_population_pct,6630,6630,0,0.0,5.27494050180917,100.0
+industry_share_pct,6630,5913,717,10.81,0.0,86.6695550057577
+renewable_energy_pct,6630,6157,473,7.13,0.0,98.3
