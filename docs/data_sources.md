@@ -36,5 +36,5 @@ Original downloaded datasets are stored in `data/raw/` to preserve their content
 ## Provenance Information to Complete
 - Download date for each source: November 15, 2026
 - Source licenses and redistribution permissions: Pending review
-- SHA-256 checksums: Pending calculation
+- SHA-256 checksums: Pending calculation 
 - Dataset versions and temporal coverage: Pending verification
