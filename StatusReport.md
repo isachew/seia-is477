@@ -62,9 +62,9 @@ Our project goals and research questions are unchanged. We made the following ch
 
 **Missing values.** Our project plan left open whether to drop, interpolate, or flag missing values. Based on the quality assessment, we chose to preserve them and document gaps, such as renewable energy data ending in 2022, rather than estimate values. These changes do not alter our research goals but keep our analysis accurate and transparent about what the data can support.
 
-## 5. Challenges & Proposed Solutions (~200 words)
+## 5. Challenges & Proposed Solutions 
 
-The main challenge that we faced was acquiring the UNDP dataset, since our research questions are related to the Human Development Index (HDI) and the UNDP data set we originally had did not include all of the annual HDI values. Because of this, we had to pivot and find a different UNDP Data set which had the HDI data we needed to answer our research questions. 
+The main challenge that we faced was acquiring the UNDP dataset, since our research questions are related to the Human Development Index (HDI) and the UNDP dataset we originally had did not include all of the annual HDI values. Because of this, we had to pivot and find a different UNDP Dataset which had the HDI data we needed to answer our research questions. 
 
 Additionally, another challenge was working with missing data. For example, there were some missing observations as seen through our data quality assessment, and some of the data, including renewable energy, was available in a more limited timeframe to 2022 instead of 2023. To resolve this, we kept the missing values instead of estimating and assuming values that could be inaccurate. Although this does cause limitations in the availability of our data, it avoids adding inaccurate placeholders.
 
@@ -72,9 +72,9 @@ Additionally, another challenge was working with missing data. For example, ther
 
 Expected challenges: 
 
-Going beyond the progress we've made so far, we anticipate challenges when it comes to the reproducibility of our project. Our review and reproducibility testing is further along the project, and we need to []
+Going beyond the progress we've made so far, we anticipate challenges when it comes to the reproducibility of our project. (Our review and reproducibility testing is) 
 
-Since we have made limited progress in the licensing, we need to ensure that we have the proper permissions, and potentially provide alternate ways to gain permission or access them without including it in the public repository. 
+Since we have made limited progress in the licensing, we need to ensure that we have the proper permissions, and potentially provide alternate ways to access them without including it in the public repository. 
 
 
 
@@ -90,4 +90,4 @@ Since we have made limited progress in the licensing, we need to ensure that we 
 ## 6. Individual Contributions 
 - **Ean Kim:** I helped draft and revise `ProjectPlan.md`, including the research questions, dataset descriptions, and timeline. For this milestone, I reviewed our repository against the plan and wrote and edited the documentation, timeline and changes. Next, I will lead the reproducibility test and contribute to the analysis.
 
-- **Isa Chew** 
+- **Isa Chew** I helped outline the status report organization and interpret the challenges faced so far and potential challenges we expect to face in the remainder of the project. I also reviewed and updated the project timeline to consider our future responsibilities and tasks that we want to break down now that we have further progressed.
