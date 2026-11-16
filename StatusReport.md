@@ -75,8 +75,10 @@ Remaining challenges include review and reproducibility testing. We need clear s
 
 
 ## 6. Individual Contributions 
-- **Ean Kim:** I drafted and revisted `ProjectPlan.md`, including research questions, dataset descriptions, and timeline. For this milestone, I reviewed our repository against the plan and wrote and edited the documentation, timeline and changes. Next, I will lead the reproducibility test and contribute to the analysis.
+- **Ean Kim:** I drafted and revised `ProjectPlan.md`, including research questions, dataset descriptions, and timeline. For this milestone, I reviewed our repository against the plan and wrote and edited the documentation, timeline and changes. Next, I will lead the reproducibility test and contribute to the analysis.
 
 - **Isa Chew:** I helped outline the status report organization and interpret the challenges faced so far and potential challenges we expect to face in the remainder of the project. I updated the project timeline to consider our future responsibilities and tasks.
   
 - **Abigail Matern:** I helped with license and terms-of-use review for our datasets, drafted the data entry and schema.org metadata with docs/data_dictionary.md and docs/metadata.jsonld. I co-wrote the challenges section of this status report and next will finish verifying the OWID and UNDP redistribution terms, finalize  dataset documentation and validation, and create visualizations.
+
+- **Sarah Tzong:** I contributed to the project's data acquisition, quality assessments, cleaning, integration and workflow development. I also assisted with documentation and updated the Status Report to reflect our progress.
