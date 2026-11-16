@@ -90,4 +90,4 @@ Since we have made limited progress in the licensing, we need to ensure that we 
 ## 6. Individual Contributions 
 - **Ean Kim:** I helped draft and revise `ProjectPlan.md`, including the research questions, dataset descriptions, and timeline. For this milestone, I reviewed our repository against the plan and wrote and edited the documentation, timeline and changes. Next, I will lead the reproducibility test and contribute to the analysis.
 
-- **Isa Chew** I helped outline the status report organization and interpret the challenges faced so far and potential challenges we expect to face in the remainder of the project. I also reviewed and updated the project timeline to consider our future responsibilities and tasks that we want to break down now that we have further progressed.
+- **Isa Chew** I helped outline the status report organization and interpret the challenges faced so far and potential challenges we expect to face in the remainder of the project. I updated the project timeline to consider our future responsibilities and tasks.
