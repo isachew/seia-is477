@@ -40,7 +40,7 @@ We are on track with our original plan. Acquisition, quality assessment, cleanin
 | Integration | Nov 3–9 | Completed | — | Ean, Sarah |
 | Post-integration quality assessment | Nov 10–15 | Completed | — | Ean, Sarah |
 | Workflow automation (`run_all.py`) | Nov 20–29 | Completed (ahead of schedule) | — | Ean |
-| Status report | Nov 16–19 | In progress | Nov 19 | All |
+| Status report | Nov 16–19 | In progress | Nov 16 | All |
 | UNDP terms-of-use review | Oct 13–19 | In progress | Nov 22 | Abigail |
 | Analysis and visualizations | Nov 20–29 | Not started | Nov 29 | All |
 | Reproducibility test and package pinning | Nov 30–Dec 4 | Not started | Dec 4 | Ean, Isa |
