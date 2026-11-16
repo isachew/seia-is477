@@ -39,7 +39,7 @@ Acquisition, quality assessment, cleaning, and integration were completed later 
 | Integration | Nov 3–9 | Completed | Nov 15 | Sarah |
 | Post-integration quality assessment | Nov 10–15 | Completed | Nov 15 | Sarah |
 | Workflow automation and integrity checks | Nov 20–29 | Completed (ahead of schedule) | Nov 15 | Sarah |
-| Status report | Nov 16–19 | In progress | Nov 19 | All |
+| Status report | Nov 16–19 | In progress | Nov 16 | All |
 | License and terms-of-use review | Oct 13–19 | In progress | Nov 22 | Abigail |
 | Data dictionary and metadata | Nov 30–Dec 4 | Drafted | Dec 4 | Abigail |
 | Analysis and visualizations | Nov 20–29 | Not started | Nov 29 | All |
