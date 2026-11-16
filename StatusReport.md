@@ -41,9 +41,11 @@ Acquisition, quality assessment, cleaning, and integration were completed later 
 | Workflow automation and integrity checks | Nov 20–29 | Completed (ahead of schedule) | Nov 15 | Sarah |
 | Status report | Nov 16–19 | In progress | Nov 16 | All |
 | License and terms-of-use review | Oct 13–19 | In progress | Nov 22 | Abigail |
-| Data dictionary and metadata | Nov 30–Dec 4 | Drafted | Dec 4 | Abigail |
-| Analysis and visualizations | Nov 20–29 | Not started | Nov 29 | All |
-| Reproducibility test and package pinning | Nov 30–Dec 4 | Not started | Dec 4 | Ean, Isa |
+| Exploratory data analysis | New task | Not started | Nov 24 | Ean, Isa |
+| Create Graphs and Visualizations | New task | Not started | Nov 27 | Isa, Abigail |
+| Dataset validation | New task | Drafted | Dec 4 | All |
+| Interpretation of findings | Nov 20–29 | Not started | Nov 29 | Isa, Ean, Abigail|
+| Reproducibility test and package pinning | Nov 30–Dec 4 | Not started | Dec 4 | Ean, Isa 
 | Final report and `final-project` release | Dec 5–7 | Not started | Dec 5–7 | All |
 
 
@@ -61,6 +63,8 @@ Our project goals and research questions are unchanged. We made the following ch
 **Missing values.** Our project plan left open whether to drop, interpolate, or flag missing values. Based on the quality assessment, we chose to preserve them and document gaps, such as renewable energy data ending in 2022, rather than estimate values. These changes do not alter our research goals but keep our analysis accurate and transparent about what the data can support.
 
 ## 5. Challenges & Proposed Solutions (~200 words)
+
+The main challenge that we faced was 
 - What problems have we run into so far?
 - Potential issues to discuss if we've encountered them:
   - Differences in country names or country codes across datasets.
@@ -71,3 +75,5 @@ Our project goals and research questions are unchanged. We made the following ch
 
 ## 6. Individual Contributions 
 - **Ean Kim:** I helped draft and revise `ProjectPlan.md`, including the research questions, dataset descriptions, and timeline. For this milestone, I reviewed our repository against the plan and wrote and edited the documentation, timeline and changes. Next, I will lead the reproducibility test and contribute to the analysis.
+
+- **Isa Chew** 
