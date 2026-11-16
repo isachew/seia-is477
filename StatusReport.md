@@ -28,11 +28,25 @@ We have documented the origin of each dataset, including source URLs and dataset
 Remaining documentation includes a data dictionary describing each variable in the integrated dataset (name, definition, units, source, and years covered), project-level metadata, and a README explaining how to run the workflow from a fresh clone.
 
 
-## 3. Updated Project Timeline (~150 words + table)
-- Make a table showing all the tasks from our original project plan.
-- Include each task's current status (completed, in progress, or not started).
-- Update the deadlines based on where we are now.
-- Make sure our revised timeline allows us to finish everything by December 7.
+## 3. Updated Project Timeline 
+We are on track with our original plan. Acquisition, quality assessment, cleaning, integration, and post-integration assessment are complete, and the automated workflow runs end to end. The remaining tasks are analysis, documentation, the reproducibility test, and the final report, all of which fit within the original schedule and finish by December 7.
+
+| Task | Original dates | Status | Expected completion | Responsible |
+|---|---|---|---|---|
+| Project plan release | Oct 12 | Completed | Oct 12 | All; Isa coordinates |
+| Acquisition and organization | Oct 13–19 | Completed | — | Isa, Abigail |
+| Pre-integration quality assessment | Oct 20–26 | Completed | — | Sarah |
+| Data cleaning | Oct 27–Nov 2 | Completed | — | Sarah |
+| Integration | Nov 3–9 | Completed | — | Ean, Sarah |
+| Post-integration quality assessment | Nov 10–15 | Completed | — | Ean, Sarah |
+| Workflow automation (`run_all.py`) | Nov 20–29 | Completed (ahead of schedule) | — | Ean |
+| Status report | Nov 16–19 | In progress | Nov 19 | All |
+| UNDP terms-of-use review | Oct 13–19 | In progress | Nov 22 | Abigail |
+| Analysis and visualizations | Nov 20–29 | Not started | Nov 29 | All |
+| Reproducibility test and package pinning | Nov 30–Dec 4 | Not started | Dec 4 | Ean, Isa |
+| Data dictionary and metadata | Nov 30–Dec 4 | Not started | Dec 4 | Abigail |
+| Final report and `final-project` release | Dec 5–7 | Not started | Dec 7 | All |
+
 
 ## 4. Changes to Original Project Plan (~150 words)
 - Have we made any changes to our original approach, datasets, or research questions?
