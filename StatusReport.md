@@ -69,8 +69,5 @@ Our project goals and research questions are unchanged. We made the following ch
   - Falling behind our original project timeline.
 - Explain what we've done to address each issue or what we plan to do about it.
 
-## 6. Individual Contributions (~150–200 words total)
-- Each person writes a short paragraph (around 40–50 words) about what they've worked on so far.
-- Mention specific tasks completed, files created, or contributions to the report.
-- Each person should add and commit their own paragraph to GitHub so their contribution shows up in the commit history.
+## 6. Individual Contributions 
 - **Ean Kim:** I helped draft and revise `ProjectPlan.md`, including the research questions, dataset descriptions, and timeline. For this milestone, I reviewed our repository against the plan and wrote and edited the documentation, timeline and changes. Next, I will lead the reproducibility test and contribute to the analysis.
