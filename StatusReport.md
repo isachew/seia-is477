@@ -72,7 +72,7 @@ Finally, our sources used inconsistent structures and country identifiers, inclu
 
 Expected challenges: 
 
-Going beyond the progress we've made so far, we anticipate challenges when it comes to the reproducibility of our project. Our review and reproducibility testing is further along the project, and we need to conduct an end-to-end reproducibility test with pinned package versions, write clear setup instructions in our README, and run an end-to-end test from a fresh repository clone to ensure anyone can reproduce our results without errors. 
+Going beyond the progress we've made so far, we anticipate challenges when it comes to the reproducibility of our project. Our review and reproducibility testing is further along the project, and we need to write clear setup instructions in our README and conduct an end-to-end reproducibility test with pinned package versions from a fresh repository clone to ensure anyone can reproduce our results without errors.
 
 Since we have made limited progress in the licensing, we need to ensure that we have the proper permissions, and potentially provide alternate ways to gain permission or access them without including it in the public repository. 
 
@@ -81,3 +81,5 @@ Since we have made limited progress in the licensing, we need to ensure that we 
 - **Ean Kim:** I helped draft and revise `ProjectPlan.md`, including the research questions, dataset descriptions, and timeline. For this milestone, I reviewed our repository against the plan and wrote and edited the documentation, timeline and changes. Next, I will lead the reproducibility test and contribute to the analysis.
 
 - **Isa Chew** I helped outline the status report organization and interpret the challenges faced so far and potential challenges we expect to face in the remainder of the project. I updated the project timeline to consider our future responsibilities and tasks.
+  
+- **Abigail Matern** I helped with he license and terms-of-use review for our datasets, drafted the data entry and schema.org metadata with docs/data_dictionary.md and docs/metadata.jsonld. I co-wrote the challenges and proposed solutions section of this status report and next will finish verifying the OWID and UNDP redistribution terms, finalize the dataset documentation and validation, and create graphs and visualizations to support our interpretation of findings. 
