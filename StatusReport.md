@@ -64,28 +64,18 @@ Our project goals and research questions are unchanged. We made the following ch
 
 ## 5. Challenges & Proposed Solutions 
 
-The main challenge that we faced was acquiring the UNDP dataset, since our research questions are related to the Human Development Index (HDI) and the UNDP dataset we originally had did not include all of the annual HDI values. Because of this, we had to pivot and find a different UNDP Dataset which had the HDI data we needed to answer our research questions. 
+The main challenge that we faced was acquiring the UNDP dataset, since our research questions are related to the Human Development Index (HDI) and the UNDP data set we originally had did not include all of the annual HDI values. We pivoted to the UNDP composite indices time-series dataset to get full coverage from 1990-2023 by downloading it manually and verifying it with the SHA-256 checksums since it could not be fetched directly via our acquisition script. 
 
 Additionally, another challenge was working with missing data. For example, there were some missing observations as seen through our data quality assessment, and some of the data, including renewable energy, was available in a more limited timeframe to 2022 instead of 2023. To resolve this, we kept the missing values instead of estimating and assuming values that could be inaccurate. Although this does cause limitations in the availability of our data, it avoids adding inaccurate placeholders.
 
-(Challenge for different formats and identifiers, needing to standardize)
+Finally, our sources used inconsistent structures and country identifiers, including 1,217 OWID records that lacked country codes (such as regional aggregates). To resolve this, our cleaning script reshaped all datasets into a uniform country-year panel and standardized them to 195 countries using ISO-3 codes. 
 
 Expected challenges: 
 
-Going beyond the progress we've made so far, we anticipate challenges when it comes to the reproducibility of our project. (Our review and reproducibility testing is) 
+Going beyond the progress we've made so far, we anticipate challenges when it comes to the reproducibility of our project. Our review and reproducibility testing is further along the project, and we need to conduct an end-to-end reproducibility test with pinned package versions, write clear setup instructions in our README, and run an end-to-end test from a fresh repository clone to ensure anyone can reproduce our results without errors. 
 
-Since we have made limited progress in the licensing, we need to ensure that we have the proper permissions, and potentially provide alternate ways to access them without including it in the public repository. 
+Since we have made limited progress in the licensing, we need to ensure that we have the proper permissions, and potentially provide alternate ways to gain permission or access them without including it in the public repository. 
 
-
-
-
-- What problems have we run into so far?
-- Potential issues to discuss if we've encountered them:
-  - Differences in country names or country codes across datasets.
-  - Missing data for certain countries or years.
-  - Differences in how sources measure GDP, emissions, or development.
-  - Falling behind our original project timeline.
-- Explain what we've done to address each issue or what we plan to do about it.
 
 ## 6. Individual Contributions 
 - **Ean Kim:** I helped draft and revise `ProjectPlan.md`, including the research questions, dataset descriptions, and timeline. For this milestone, I reviewed our repository against the plan and wrote and edited the documentation, timeline and changes. Next, I will lead the reproducibility test and contribute to the analysis.
