@@ -47,7 +47,7 @@ Acquisition, quality assessment, cleaning, and integration were completed later 
 | Final report and `final-project` release | Dec 5–7 | Not started | Dec 5–7 | All |
 
 
-## 4. Changes to Original Project Plan (~150 words)
+## 4. Changes to Original Project Plan 
 - Have we made any changes to our original approach, datasets, or research questions?
 - Did we receive any feedback on Milestone 2 that we need to address?
 - Explain any changes we've made to our timeline or responsibilities.
@@ -55,13 +55,17 @@ Acquisition, quality assessment, cleaning, and integration were completed later 
 
 Draft, please revise:
 
-Our group has maintained the original project objectives and research questions, but we have made several adjustments based on instructor feedback and challenges encountered during data acquisition and processing.
+Our project goals and research questions are unchanged. We made the following changes in response to Milestone 2 feedback and issues found during processing.
 
-One change involved our UNDP dataset. We initially downloaded the 2025 Human Development Report statistical annex, but discovered that it did not provide the complete annual HDI observations needed for our 1990–2023 analysis. To address this issue, we obtained the UNDP composite indices time-series dataset, which provides the historical HDI values required for our research. This adjustment allows us to examine changes in human development over time rather than relying on a limited number of years.
+**Feedback: clearly identify the explanatory variables for RQ3.** We now specify each variable and its World Bank World Development Indicators code: GDP per capita in current US dollars (`NY.GDP.PCAP.CD`), urban population share (`SP.URB.TOTL.IN.ZS`), industry share of GDP including construction (`NV.IND.TOTL.ZS`), and renewable energy share of final energy consumption (`EG.FEC.RNEW.ZS`). These are retrieved by [`scripts/acquire_data.py`](scripts/acquire_data.py) and defined in [`docs/data_dictionary.md`](docs/data_dictionary.md).
 
-We also clarified our approach to Research Question 3 based on instructor feedback. Rather than broadly examining factors that might explain differences in emissions, we will specifically focus on urban population percentage, industry share of GDP and renewable energy consumption percentage. Our analysis will remain primarily descriptive, using comparisons and visualizations to explore how these indicators relate to emissions among countries with similar income levels. We do not plan to make causal claims based on these relationships.
+**Feedback: keep the analysis simple and descriptive.** We will answer all three research questions with summary statistics, comparisons across income and HDI groups, and visualizations such as scatter plots and country trend lines. We will not fit models or make causal claims, keeping the focus on data curation.
 
-Finally, our initial data quality assessment revealed differences in data availability across sources. In particular, renewable energy consumption observations were available only through 2022, despite our overall study period extending through 2023. We will preserve missing observations and clearly document these limitations rather than substitute values from other years. These adjustments do not change our overall research goals but help ensure that our analysis remains accurate, transparent and consistent with the available data.
+**UNDP dataset.** The 2025 HDR statistical annex we first downloaded lacked complete annual HDI values, so we replaced it with the UNDP composite indices time series, which covers 1990–2023.
+
+**Timeline and responsibilities.** Acquisition through integration finished later than planned but was complete by November 15. Remaining tasks have been reassigned as shown in Section 3.
+
+**Missing values.** Our project plan left open whether to drop, interpolate, or flag missing values. Based on the quality assessment, we chose to preserve them and document gaps, such as renewable energy data ending in 2022, rather than estimate values. These changes do not alter our research goals but keep our analysis accurate and transparent about what the data can support.
 
 ## 5. Challenges & Proposed Solutions (~200 words)
 - What problems have we run into so far?
