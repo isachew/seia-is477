@@ -64,7 +64,21 @@ Our project goals and research questions are unchanged. We made the following ch
 
 ## 5. Challenges & Proposed Solutions (~200 words)
 
-The main challenge that we faced was 
+The main challenge that we faced was acquiring the UNDP dataset, since our research questions are related to the Human Development Index (HDI) and the UNDP data set we originally had did not include all of the annual HDI values. Because of this, we had to pivot and find a different UNDP Data set which had the HDI data we needed to answer our research questions. 
+
+Additionally, another challenge was working with missing data. For example, there were some missing observations as seen through our data quality assessment, and some of the data, including renewable energy, was available in a more limited timeframe to 2022 instead of 2023. To resolve this, we kept the missing values instead of estimating and assuming values that could be inaccurate. Although this does cause limitations in the availability of our data, it avoids adding inaccurate placeholders.
+
+(Challenge for different formats and identifiers, needing to standardize)
+
+Expected challenges: 
+
+Going beyond the progress we've made so far, we anticipate challenges when it comes to the reproducibility of our project. Our review and reproducibility testing is further along the project, and we need to []
+
+Since we have made limited progress in the licensing, we need to ensure that we have the proper permissions, and potentially provide alternate ways to gain permission or access them without including it in the public repository. 
+
+
+
+
 - What problems have we run into so far?
 - Potential issues to discuss if we've encountered them:
   - Differences in country names or country codes across datasets.
