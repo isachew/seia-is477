@@ -48,13 +48,6 @@ Acquisition, quality assessment, cleaning, and integration were completed later 
 
 
 ## 4. Changes to Original Project Plan 
-- Have we made any changes to our original approach, datasets, or research questions?
-- Did we receive any feedback on Milestone 2 that we need to address?
-- Explain any changes we've made to our timeline or responsibilities.
-- If the overall plan hasn't changed, just explain that we're keeping the same approach and adjusting our timeline as needed.
-
-Draft, please revise:
-
 Our project goals and research questions are unchanged. We made the following changes in response to Milestone 2 feedback and issues found during processing.
 
 **Feedback: clearly identify the explanatory variables for RQ3.** We now specify each variable and its World Bank World Development Indicators code: GDP per capita in current US dollars (`NY.GDP.PCAP.CD`), urban population share (`SP.URB.TOTL.IN.ZS`), industry share of GDP including construction (`NV.IND.TOTL.ZS`), and renewable energy share of final energy consumption (`EG.FEC.RNEW.ZS`). These are retrieved by [`scripts/acquire_data.py`](scripts/acquire_data.py) and defined in [`docs/data_dictionary.md`](docs/data_dictionary.md).
