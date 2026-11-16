@@ -23,29 +23,28 @@ After data cleaning, we developed a Python integration script to combine all six
 To support reproducibility, we developed an automated workflow, [`scripts/run_all.py`](scripts/run_all.py), which runs raw data integrity verification, pre-integration quality assessment, cleaning, integration and post-integration quality assessment in sequence. We tested the complete workflow, with all six raw datasets passing SHA-256 verification and all processing steps completing without errors. The post-integration assessment confirmed that the integrated dataset contains no duplicate country-year records and evaluated indicator completeness and coverage for each research question. These results are documented in [`results/post_integration_quality/`](results/post_integration_quality/). Although the processing workflow is automated, the acquisition of updated source data remains partially manual.
 
 ### 2.4 Documentation & Ethics
-We have documented the origin of each dataset, including source URLs and dataset descriptions, in [`docs/data_sources.md`](docs/data_sources.md), and our checksums record the exact versions of the raw files we used. OWID data is published under a Creative Commons Attribution (CC BY 4.0) license, and World Bank WDI data is also available under CC BY 4.0, so both may be shared with proper attribution. We still need to confirm the UNDP Human Development Reports terms of use, including whether we may redistribute the raw time-series file in our repository. If redistribution is not allowed, we will remove the raw file and provide download instructions instead.
-
-Remaining documentation includes a data dictionary describing each variable in the integrated dataset (name, definition, units, source, and years covered), project-level metadata, and a README explaining how to run the workflow from a fresh clone.
+We documented the origin of each dataset in [`docs/data_sources.md`](docs/data_sources.md) and recorded licensing and attribution information in [`docs/data_licenses.md`](docs/data_licenses.md). The World Bank WDI data is available under CC BY 4.0. The OWID and UNDP terms are still being verified, including whether the raw UNDP time-series file may be redistributed in our repository; if it cannot, we will remove it and provide download instructions instead. We have drafted a data dictionary for the integrated dataset in [`docs/data_dictionary.md`](docs/data_dictionary.md), covering each variable's definition, units, and source, and schema.org dataset metadata in [`docs/metadata.jsonld`](docs/metadata.jsonld). Remaining work includes confirming the outstanding licenses, choosing a license for our code and integrated dataset, and writing a README that explains how to run the workflow from a fresh clone.
 
 
 ## 3. Updated Project Timeline 
-We are on track with our original plan. Acquisition, quality assessment, cleaning, integration, and post-integration assessment are complete, and the automated workflow runs end to end. The remaining tasks are analysis, documentation, the reproducibility test, and the final report, all of which fit within the original schedule and finish by December 7.
+Acquisition, quality assessment, cleaning, and integration were completed later than originally scheduled, but all were finished by November 15, which matches the original deadline for the post-integration assessment. The automated workflow also runs end to end. The remaining tasks are license confirmation, analysis, finalizing documentation, a reproducibility test, and the final report, all scheduled to finish by December 7.
+
 
 | Task | Original dates | Status | Expected completion | Responsible |
 |---|---|---|---|---|
 | Project plan release | Oct 12 | Completed | Oct 12 | All; Isa coordinates |
-| Acquisition and organization | Oct 13–19 | Completed | — | Isa, Abigail |
-| Pre-integration quality assessment | Oct 20–26 | Completed | — | Sarah |
-| Data cleaning | Oct 27–Nov 2 | Completed | — | Sarah |
-| Integration | Nov 3–9 | Completed | — | Ean, Sarah |
-| Post-integration quality assessment | Nov 10–15 | Completed | — | Ean, Sarah |
-| Workflow automation (`run_all.py`) | Nov 20–29 | Completed (ahead of schedule) | — | Ean |
-| Status report | Nov 16–19 | In progress | Nov 16 | All |
-| UNDP terms-of-use review | Oct 13–19 | In progress | Nov 22 | Abigail |
+| Acquisition and organization | Oct 13–19 | Completed | Nov 15 | Sarah |
+| Pre-integration quality assessment | Oct 20–26 | Completed | Nov 15 | Sarah |
+| Data cleaning | Oct 27–Nov 2 | Completed | Nov 15 | Sarah |
+| Integration | Nov 3–9 | Completed | Nov 15 | Sarah |
+| Post-integration quality assessment | Nov 10–15 | Completed | Nov 15 | Sarah |
+| Workflow automation and integrity checks | Nov 20–29 | Completed (ahead of schedule) | Nov 15 | Sarah |
+| Status report | Nov 16–19 | In progress | Nov 19 | All |
+| License and terms-of-use review | Oct 13–19 | In progress | Nov 22 | Abigail |
+| Data dictionary and metadata | Nov 30–Dec 4 | Drafted | Dec 4 | Abigail |
 | Analysis and visualizations | Nov 20–29 | Not started | Nov 29 | All |
 | Reproducibility test and package pinning | Nov 30–Dec 4 | Not started | Dec 4 | Ean, Isa |
-| Data dictionary and metadata | Nov 30–Dec 4 | Not started | Dec 4 | Abigail |
-| Final report and `final-project` release | Dec 5–7 | Not started | Dec 7 | All |
+| Final report and `final-project` release | Dec 5–7 | Not started | Dec 5–7 | All |
 
 
 ## 4. Changes to Original Project Plan (~150 words)
